@@ -17,7 +17,7 @@ public class Composite extends Component {
 
     @Override
     public void remove(Component c) {
-        this.remove(c);
+        this.children.remove(c);
     }
 
     @Override
